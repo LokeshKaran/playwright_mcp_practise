@@ -1,0 +1,50 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link [ref=e5] [cursor=pointer]:
+      - /url: https://courses.rahulshettyacademy.com
+      - img "Rahul Shetty Academy" [ref=e6]
+  - main [ref=e7]:
+    - generic [ref=e8]:
+      - heading "Sign Up" [level=3] [ref=e9]
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - generic [ref=e13]: Full name
+          - textbox "Full name" [ref=e16]:
+            - /placeholder: your name
+          - generic [ref=e17]: Email
+          - textbox "Email" [ref=e20]:
+            - /placeholder: you@email.com
+          - generic [ref=e21]:
+            - checkbox "I agree to receive promotional and instructional emails from Rahul Shetty Academy School" [ref=e22]
+            - generic [ref=e23]: I agree to receive promotional and instructional emails from Rahul Shetty Academy School
+          - paragraph [ref=e24]:
+            - generic [ref=e25]:
+              - text: By signing up, I agree to Rahul Shetty Academy School's
+              - link "Privacy" [ref=e26] [cursor=pointer]:
+                - /url: https://courses.rahulshettyacademy.com/p/privacy
+              - text: "&"
+              - link "Terms" [ref=e27] [cursor=pointer]:
+                - /url: https://courses.rahulshettyacademy.com/p/terms
+              - text: ", and Teachable's"
+              - link "Privacy" [ref=e28] [cursor=pointer]:
+                - /url: https://teachable.com/privacy-policy
+              - text: "&"
+              - link "Terms." [ref=e29] [cursor=pointer]:
+                - /url: https://teachable.com/terms-of-use
+          - button "Send code" [ref=e30] [cursor=pointer]
+        - button [ref=e32]:
+          - generic [ref=e33]:
+            - text: Already have an account?
+            - link "Log in" [ref=e34] [cursor=pointer]:
+              - /url: /secure/9521/identity/login/otp
+  - contentinfo [ref=e35]:
+    - generic [ref=e36]: © Rahul Shetty Academy 2026
+  - iframe [ref=e40]:
+    - generic [ref=f3e5]:
+      - generic [ref=f3e6]:
+        - text: protected by
+        - strong [ref=f3e7]: reCAPTCHA
+      - generic [ref=f3e9]:
+        - text: reCAPTCHA is changing its terms of service.
+        - link "Take action." [ref=f3e10] [cursor=pointer]:
+          - /url: https://google.com/recaptcha/admin/migrate
